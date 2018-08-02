@@ -7,9 +7,9 @@ const socketio = require('socket.io');
 const { Strategy: TwitterStrategy } = require('passport-twitter');
 
 const TWITTER_CONFIG = {
-    consumerKey: 'my key from twitter', 
-    consumerSecret: 'my secret from twitter', 
-    callbackURL: 'http etc'
+    consumerKey: 'p2vVlGHuMaR65Uj33GEtRKki4', 
+    consumerSecret: 'a8jpFhigRwIhjb0Z9H5GH4CC3QeF1tfA0S1jtcGJG58VajzltP', 
+    callbackURL: 'https://127.0.0.1:8080/twitter/callback'
 }
 
 const app = express();
